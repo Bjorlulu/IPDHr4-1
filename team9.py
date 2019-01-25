@@ -34,9 +34,9 @@ def Gamewinner(history):
         import random
         number = random.randint(1,10)
         if number == 10:
-            return "c"
-        else:
             return "b"
+        else:
+            return "c"
     else:
         return "c"
 
